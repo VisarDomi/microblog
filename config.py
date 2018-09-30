@@ -15,4 +15,6 @@ class Config(object):
     ###########
     ADMINS = ['lubu0900@gmail.com'] 
     ###########
+
+    POSTS_PER_PAGE = 25
     
