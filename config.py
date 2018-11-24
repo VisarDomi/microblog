@@ -17,5 +17,7 @@ class Config(object):
     ###########
 
     POSTS_PER_PAGE = 25
-    
-    LANGUAGES = ['en', 'es']
+
+    LANGUAGES = ['en', 'es', 'sq']
+
+    YANDEX_TRANSLATOR_KEY = os.environ.get('YANDEX_TRANSLATOR_KEY')

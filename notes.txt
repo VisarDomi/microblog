@@ -1,0 +1,14 @@
+r={
+    "code": 200,
+    "lang": "en-sq",
+    "text": [
+        "Ky është një tekst për të përkthyer."
+    ]
+}
+
+>>> r['code']
+200
+>>> r['text'][0]
+'Ky është një tekst për të përkthyer.'
+
+$(destElem).html('<img src="{{url_for(\'static\', filename=\'loading.gif\')}}">');
