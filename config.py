@@ -18,3 +18,4 @@ class Config(object):
     LANGUAGES = ['en', 'es', 'sq']
     YANDEX_TRANSLATOR_KEY = os.environ.get('YANDEX_TRANSLATOR_KEY')
     POSTS_PER_PAGE = 25
+    ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
