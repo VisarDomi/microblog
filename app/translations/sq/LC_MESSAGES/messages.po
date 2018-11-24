@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-23 17:05+0100\n"
+"POT-Creation-Date: 2018-11-24 10:49+0100\n"
 "PO-Revision-Date: 2018-11-23 17:05+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sq\n"
@@ -78,52 +78,60 @@ msgstr "Thuaj dicka"
 msgid "Request Password Reset"
 msgstr "Kërkoni Password Reset"
 
-#: app/routes.py:22
+#: app/routes.py:28
 msgid "Your post is now live!"
 msgstr "Postimi juaj tani është i gjallë!"
 
-#: app/routes.py:40
+#: app/routes.py:46
 msgid "Invalid username or password"
 msgstr "Emri i përdoruesit ose fjalëkalimi i pavlefshëm"
 
-#: app/routes.py:64
+#: app/routes.py:70
 msgid "Congratulations, you are now a registered user!"
 msgstr "Urime, ti je tani një përdorues i regjistruar!"
 
-#: app/routes.py:95
+#: app/routes.py:101
 msgid "Your changes have been saved."
 msgstr "Ndryshimet tuaja, u ruajten."
 
-#: app/routes.py:107 app/routes.py:122
+#: app/routes.py:113 app/routes.py:128
 #, python-format
 msgid "User %(username)s not found."
 msgstr "Përdoruesi %(username)s nuk u gjet."
 
-#: app/routes.py:110
+#: app/routes.py:116
 msgid "You cannot follow yourself!"
 msgstr "Nuk mund të ndiqni veten!"
 
-#: app/routes.py:114
+#: app/routes.py:120
 #, python-format
 msgid "You are following %(username)s!"
 msgstr "Ju jeni duke ndjekur %(username)s!"
 
-#: app/routes.py:125
+#: app/routes.py:131
 msgid "You cannot unfollow yourself!"
 msgstr "Ju nuk mund të ndiqni veten!"
 
-#: app/routes.py:129
+#: app/routes.py:135
 #, python-format
 msgid "You are not following %(username)s."
 msgstr "Nuk po ndjek %(username)s."
 
-#: app/routes.py:152
+#: app/routes.py:158
 msgid "Check your email for the intructions to reset your password"
 msgstr "Kontrolloni email-in tuaj për intructions për të rivendosur fjalëkalimin tuaj"
 
-#: app/routes.py:167
+#: app/routes.py:173
 msgid "Your password has been reset."
 msgstr "Fjalëkalimi juaj është rivendosur."
+
+#: app/translate.py:9
+msgid "Error: the translation service is not configured."
+msgstr "Gabim: shërbimi i përkthimit nuk është konfiguruar."
+
+#: app/translate.py:14
+msgid "Error: The translation service failed."
+msgstr "Gabim: Shërbimi i përkthimit dështoi."
 
 #: app/templates/404.html:4
 msgid "File Not Found"
@@ -145,6 +153,10 @@ msgstr "Administratori është njoftuar. Na vjen keq për bezdi!"
 #, python-format
 msgid "%(username)s said %(when)s"
 msgstr "%(username)s tha %(when)s"
+
+#: app/templates/_post.html:24
+msgid "Translate"
+msgstr "përkthej"
 
 #: app/templates/base.html:4
 msgid "Welcome to Microblog!"
@@ -173,6 +185,10 @@ msgstr "profil"
 #: app/templates/base.html:29
 msgid "Logout"
 msgstr "Shkyç"
+
+#: app/templates/base.html:66
+msgid "Error: Could not contact server."
+msgstr "Gabim: Nuk mund të kontaktohej serveri."
 
 #: app/templates/edit_profile.html:5
 msgid "Edit Profile"
