@@ -1,4 +1,7 @@
-Starting up:
+An example twitter-like website made from following a tutorial describing API creation, database tables, relations and schemas, deployment and various glue code needed to have a fully working application.
+
+
+# Starting up:
 
 To create venv:
 py venv venv
